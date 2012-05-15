@@ -11,6 +11,7 @@ module Spree
   class ProductImport < ActiveRecord::Base
     has_attached_file :data_file, :path => ":rails_root/lib/etc/product_data/data-files/:basename.:extension"
     validates_attachment_presence :data_file
+    attr_accessible :data_file
 
     after_destroy :destroy_products
 
