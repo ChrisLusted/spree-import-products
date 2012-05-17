@@ -68,7 +68,7 @@ rails generate import_products:install
 INSTALLATION
 ==============
 1. Add the gem to your Gemfile, and run bundle install.
-    `gem 'import_products', :git => 'git://github.com/joshmcarthur/spree-import-products.git'` then `bundle install`
+    `gem 'import_products', :git => 'git://github.com/ChrisLusted/spree-import-products.git'` then `bundle install`
 
 2. rails generate import_products:install
 
